@@ -1,1 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Great+Vibes&family=Montserrat:wght@400;500;600;700&display=swap');
+:root{
+ --blue:#082b67;--blue2:#123f89;--blue3:#1d56a4;--gold:#c99a2e;--gold-bright:#f0c75e;
+ --gold-pale:#f8e7ad;--white:#fff;--ivory:#fbfaf5;--ink:#102a50;--muted:#68758a;
+ --line:rgba(201,154,46,.58);--shadow:0 18px 55px rgba(8,35,82,.14)
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;color:var(--ink);font-family:'Cormorant Garamond',Georgia,serif;background:var(--ivory);min-height:100vh}
+a{color:inherit}
+.site-header{position:sticky;top:0;z-index:20;background:rgba(255,255,255,.96);backdrop-filter:blur(12px);border-bottom:1px solid #d6b45b}
+.nav-wrap{max-width:1240px;margin:auto;padding:12px 24px;display:flex;align-items:center;justify-content:space-between;gap:18px}
+.brand{display:flex;gap:12px;align-items:center;text-decoration:none;flex-shrink:0}
+.brand-mark{width:44px;height:44px;border:1px solid var(--gold);outline:1px solid #c99a2e55;outline-offset:3px;border-radius:50%;display:grid;place-items:center;color:var(--blue);font-size:24px}
+.brand-title{font:600 12px Montserrat,sans-serif;letter-spacing:.16em;text-transform:uppercase;color:var(--blue)}
+.brand-sub{font:10px Montserrat,sans-serif;letter-spacing:.13em;text-transform:uppercase;color:#a0781d}
+.nav-links{display:flex;align-items:center;justify-content:flex-end;gap:2px;flex-wrap:wrap}
+.nav-links a{font:500 11px Montserrat,sans-serif;letter-spacing:.035em;text-decoration:none;padding:10px 8px;border-bottom:2px solid transparent;color:#1a3766}
+.nav-links a:hover,.nav-links a.active{color:#a87912;border-bottom-color:var(--gold)}
+.menu-toggle{display:none;background:white;border:1px solid var(--gold);color:var(--blue);padding:9px 12px}
+main{max-width:1240px;margin:auto;padding:36px 24px 66px}
+.hero{min-height:680px;position:relative;display:grid;place-items:center;text-align:center;padding:58px 28px;overflow:hidden;background:linear-gradient(135deg,#fff 0%,#f7faff 55%,#fffaf0 100%);border:1px solid var(--gold);box-shadow:var(--shadow)}
+.hero:before{content:"";position:absolute;inset:18px;border:1px solid var(--gold);outline:1px solid #c99a2e44;outline-offset:5px;pointer-events:none}
+.hero:after{content:"";position:absolute;inset:38px 9%;border:1px solid #0b367d33;border-radius:50% 50% 0 0/24% 24% 0 0;pointer-events:none}
+.hero-content{position:relative;z-index:1;max-width:780px}
+.corner{position:absolute;z-index:2;color:var(--gold);font-size:34px;line-height:1}
+.corner.tl{top:28px;left:28px}.corner.tr{top:28px;right:28px}.corner.bl{bottom:28px;left:28px}.corner.br{bottom:28px;right:28px}
+.eyebrow{font:600 10px Montserrat,sans-serif;text-transform:uppercase;letter-spacing:.25em;color:#987016}
+.bismillah{font-size:clamp(27px,4vw,42px);color:var(--blue);margin:16px 0 14px;line-height:1.55}
+.script{font-family:'Great Vibes','Brush Script MT',cursive;font-weight:400;color:var(--blue)}
+h1{font-size:clamp(48px,7vw,84px);font-weight:400;line-height:1;margin:12px 0 4px}
+h2{font-size:clamp(32px,4vw,46px);font-weight:500;text-align:center;color:var(--blue);margin:0 0 14px}
+h3{font-size:25px;font-weight:600;color:var(--blue);margin:8px 0}
+.ampersand{font-family:'Great Vibes',cursive;font-size:40px;color:var(--gold);margin:2px}
+.lead{max-width:650px;font-size:21px;line-height:1.55;color:#354967;margin:20px auto}
+.ornament{display:flex;align-items:center;justify-content:center;gap:14px;color:var(--gold);margin:22px auto;font-size:17px}
+.ornament:before,.ornament:after{content:"";height:1px;width:72px;background:linear-gradient(90deg,transparent,var(--gold))}
+.ornament:after{transform:rotate(180deg)}
+.date-line{display:flex;align-items:center;justify-content:center;gap:14px;flex-wrap:wrap;margin:25px auto 8px}
+.date-line .date-side{font:600 12px Montserrat,sans-serif;letter-spacing:.13em;color:var(--blue);padding:9px 0;border-top:1px solid var(--gold);border-bottom:1px solid var(--gold)}
+.date-number{font-size:58px;line-height:.9;color:#bd8b1d}
+.details{font-size:19px;line-height:1.6;color:#29446b}
+.btn-row{display:flex;justify-content:center;gap:12px;flex-wrap:wrap;margin-top:27px}
+.btn{display:inline-flex;align-items:center;justify-content:center;text-decoration:none;padding:13px 21px;border:1px solid var(--blue);color:var(--blue);font:600 11px Montserrat,sans-serif;letter-spacing:.09em;text-transform:uppercase;transition:.2s;background:white}
+.btn.primary{background:var(--blue);color:white;border-color:var(--blue)}
+.btn.gold{background:var(--gold-bright);color:#102c5e;border-color:var(--gold)}
+.btn:hover{transform:translateY(-2px);box-shadow:0 8px 20px #0a2d651c}
+.page-shell{max-width:940px;margin:0 auto;padding:clamp(28px,5vw,66px);position:relative;background:white;border:1px solid var(--gold);box-shadow:var(--shadow)}
+.page-shell:before{content:"";position:absolute;inset:9px;border:1px solid #c99a2e77;pointer-events:none}
+.page-inner{position:relative;z-index:1}
+.page-kicker{text-align:center;font:600 10px Montserrat,sans-serif;text-transform:uppercase;letter-spacing:.23em;color:#a47b20;margin-bottom:12px}
+.center{text-align:center}
+.body-copy{max-width:720px;margin:20px auto;font-size:21px;line-height:1.7;color:#364b69}
+.gold-text{color:#a87912}
+.quote-mark{font-size:60px;line-height:.8;color:var(--gold)}
+.quote-box{max-width:720px;margin:28px auto;padding:25px 16px;border-top:1px solid var(--gold);border-bottom:1px solid var(--gold);font-size:clamp(24px,3vw,33px);font-style:italic;line-height:1.45;text-align:center;color:var(--blue)}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:30px}
+.tile{padding:25px 20px;background:#fbfcff;border:1px solid #d7bd7b;text-align:center}
+.tile-icon{font-size:30px;color:var(--gold);margin-bottom:10px}
+.tile p{font-size:18px;line-height:1.5;color:#52617a}
+.two-col{display:grid;grid-template-columns:1fr 1fr;gap:22px;margin-top:26px}
+.monogram{width:116px;height:116px;margin:0 auto 18px;border:1px solid var(--gold);outline:1px solid #c99a2e55;outline-offset:5px;border-radius:50%;display:grid;place-items:center;font-size:39px;font-style:italic;color:var(--blue);background:linear-gradient(135deg,#fff,#f4f7fd)}
+.event{display:grid;grid-template-columns:68px 1fr;gap:18px;align-items:center;padding:20px 0;border-bottom:1px solid #e6d8b2}
+.event:last-child{border-bottom:0}
+.event-icon{height:58px;width:58px;border:1px solid var(--gold);border-radius:50%;display:grid;place-items:center;color:var(--blue);font-size:26px;background:#fffdf6}
+.event h3{font-size:27px;margin:0}.event p{font-size:18px;line-height:1.4;color:#52617a;margin:4px 0}
+.map-box{margin-top:25px;padding:28px;background:#f8faff;border:1px solid #d9c58d;text-align:center}
+.small-note{font:12px/1.6 Montserrat,sans-serif;color:#68758a}
+.footer{padding:26px 18px;text-align:center;background:var(--blue);color:#f7edcf;border-top:3px solid var(--gold);font-size:14px;letter-spacing:.04em}
+.footer .script{font-size:31px;color:var(--gold-bright)}
+.footer .small-note{color:#e5d9bb;margin-top:6px}
+.section-intro{text-align:center;max-width:700px;margin:0 auto 24px;color:#52617a;font-size:19px;line-height:1.6}
+@media(max-width:1000px){.nav-wrap{flex-wrap:wrap}.menu-toggle{display:block}.nav-links{display:none;width:100%;flex-direction:column;align-items:stretch}.nav-links.open{display:flex}.nav-links a{padding:12px 6px}.grid{grid-template-columns:1fr}.two-col{grid-template-columns:1fr}.hero{min-height:630px}}
+@media(max-width:520px){main{padding:18px 10px 42px}.nav-wrap{padding:11px 14px}.brand-sub{display:none}.hero{padding:48px 18px;min-height:630px}.hero:after{inset:45px 7%}.corner{font-size:24px}.corner.tl{top:22px;left:22px}.corner.tr{top:22px;right:22px}.corner.bl{bottom:22px;left:22px}.corner.br{bottom:22px;right:22px}.date-line{gap:9px}.date-number{font-size:49px}.date-line .date-side{font-size:10px}.page-shell{padding:29px 20px}.body-copy{font-size:19px}.event{grid-template-columns:52px 1fr;gap:13px}.event-icon{width:48px;height:48px}.event h3{font-size:24px}}
 
+
+/* Theme 2: deep royal blue background with bright gold and white typography.
+   The default theme remains white with royal-blue and gold accents. */
+body[data-theme="blue"]{
+  --ink:#fffaf0;
+  --muted:#e6dfd0;
+  background:
+    radial-gradient(ellipse at 12% 8%,rgba(240,199,94,.13),transparent 32%),
+    radial-gradient(ellipse at 90% 88%,rgba(240,199,94,.11),transparent 34%),
+    linear-gradient(135deg,#04163b,#082b67 55%,#031b46);
+  color:#fffaf0;
+}
+body[data-theme="blue"] .site-header{background:rgba(3,20,55,.97);border-bottom-color:var(--gold)}
+body[data-theme="blue"] .brand-title,
+body[data-theme="blue"] .nav-links a{color:#fffaf0}
+body[data-theme="blue"] .brand-sub{color:var(--gold-bright)}
+body[data-theme="blue"] .brand-mark{color:var(--gold-bright);border-color:var(--gold-bright);outline-color:#f0c75e55}
+body[data-theme="blue"] .nav-links a:hover,
+body[data-theme="blue"] .nav-links a.active{color:var(--gold-bright);border-bottom-color:var(--gold-bright)}
+body[data-theme="blue"] .hero{
+  background:
+    radial-gradient(ellipse at 50% 0%,rgba(41,91,169,.5),transparent 50%),
+    linear-gradient(145deg,#0a347b,#061f50 70%,#03163c);
+  border-color:var(--gold-bright);
+  box-shadow:0 18px 60px rgba(0,0,0,.3);
+}
+body[data-theme="blue"] .hero:before{border-color:var(--gold-bright);outline-color:#f0c75e55}
+body[data-theme="blue"] .hero:after{border-color:#f0c75e66}
+body[data-theme="blue"] .eyebrow,
+body[data-theme="blue"] .page-kicker{color:var(--gold-bright)}
+body[data-theme="blue"] .script,
+body[data-theme="blue"] h2,
+body[data-theme="blue"] h3,
+body[data-theme="blue"] .bismillah,
+body[data-theme="blue"] .date-number,
+body[data-theme="blue"] .gold-text,
+body[data-theme="blue"] .quote-box{color:var(--gold-bright)}
+body[data-theme="blue"] .lead,
+body[data-theme="blue"] .details,
+body[data-theme="blue"] .body-copy,
+body[data-theme="blue"] .event p,
+body[data-theme="blue"] .tile p{color:#fffaf0}
+body[data-theme="blue"] .page-shell{
+  background:linear-gradient(145deg,#0a347b,#061f50 75%,#04183e);
+  border-color:var(--gold-bright);
+  box-shadow:0 20px 55px rgba(0,0,0,.3);
+}
+body[data-theme="blue"] .page-shell:before{border-color:#f0c75e77}
+body[data-theme="blue"] .tile,
+body[data-theme="blue"] .map-box{background:#ffffff0a;border-color:#f0c75e99}
+body[data-theme="blue"] .monogram{background:linear-gradient(135deg,#123f89,#061f50);color:#fff;border-color:var(--gold-bright);outline-color:#f0c75e66}
+body[data-theme="blue"] .event{border-bottom-color:#f0c75e55}
+body[data-theme="blue"] .event-icon{background:#092e70;color:var(--gold-bright);border-color:var(--gold-bright)}
+body[data-theme="blue"] .quote-box{border-color:var(--gold-bright)}
+body[data-theme="blue"] .small-note{color:#e6dfd0}
+body[data-theme="blue"] .btn{background:transparent;border-color:var(--gold-bright);color:#fffaf0}
+body[data-theme="blue"] .btn.primary{background:var(--gold-bright);color:#082b67;border-color:var(--gold-bright)}
+body[data-theme="blue"] .btn.gold{background:#fff;color:#082b67;border-color:#fff}
+body[data-theme="blue"] .menu-toggle{background:#082b67;color:#fff;border-color:var(--gold-bright)}
+.theme-toggle{
+  display:inline-flex;align-items:center;gap:7px;white-space:nowrap;
+  font:600 10px Montserrat,sans-serif;letter-spacing:.05em;
+  padding:9px 11px;border:1px solid var(--gold);background:#fff;color:var(--blue);cursor:pointer
+}
+body[data-theme="blue"] .theme-toggle{background:#082b67;color:var(--gold-bright);border-color:var(--gold-bright)}
+@media(max-width:1000px){
+  .theme-toggle{width:100%;justify-content:center;margin-top:6px}
+}
+
+
+/* Individual reference-card artwork used on each wedding page */
+.reference-card{
+  max-width:430px;
+  margin:0 auto 28px;
+  padding:8px;
+  border:1px solid var(--gold);
+  background:#fff;
+  box-shadow:0 16px 38px rgba(8,35,82,.18);
+}
+.reference-card img{
+  display:block;
+  width:100%;
+  height:auto;
+  max-height:760px;
+  object-fit:contain;
+}
+.reference-card figcaption{
+  padding:9px 8px 3px;
+  text-align:center;
+  color:var(--blue);
+  font:600 10px Montserrat,sans-serif;
+  letter-spacing:.12em;
+  text-transform:uppercase;
+}
+body[data-theme="blue"] .reference-card{
+  background:#061f50;
+  border-color:var(--gold-bright);
+  box-shadow:0 16px 38px rgba(0,0,0,.3);
+}
+body[data-theme="blue"] .reference-card figcaption{color:#fff}
+
+
+/* Responsive individual card layout: preserve the complete card artwork on phones. */
+.reference-card{
+  width:min(100%, 390px);
+  margin:0 auto 24px;
+  padding:6px;
+  border:1px solid var(--gold);
+  background:#fff;
+  box-shadow:0 12px 30px rgba(8,35,82,.14);
+  overflow:hidden;
+}
+.reference-card img{
+  display:block;
+  width:100%;
+  height:auto;
+  max-height:none;
+  object-fit:contain;
+  object-position:center;
+}
+.reference-card figcaption{
+  padding:8px 6px 3px;
+  text-align:center;
+  color:var(--blue);
+  font:600 9px/1.5 Montserrat,sans-serif;
+  letter-spacing:.1em;
+  text-transform:uppercase;
+}
+main{min-width:0}
+body{overflow-x:hidden}
+@media(max-width:600px){
+  main{padding:14px 10px 34px}
+  .reference-card{
+    width:100%;
+    max-width:360px;
+    margin:0 auto 18px;
+    padding:4px;
+    border-radius:2px;
+  }
+  .reference-card img{
+    width:100%;
+    height:auto;
+    max-height:none;
+  }
+  .reference-card figcaption{font-size:9px;letter-spacing:.06em}
+  .page-shell{width:100%;padding:24px 16px;margin-left:auto;margin-right:auto}
+  .hero{width:100%;min-height:unset;padding:42px 16px}
+  .btn-row .btn{max-width:100%;text-align:center}
+}
+@media(max-width:380px){
+  main{padding-left:7px;padding-right:7px}
+  .reference-card{max-width:100%;padding:3px}
+  .page-shell{padding:22px 13px}
+}
+
+
+/* User-requested final layout: each page shows only its image card, no caption or duplicate card text beneath it. */
+.reference-card{
+  width:100%;
+  max-width:520px;
+  margin:0 auto 22px;
+  padding:0;
+  border:0;
+  background:transparent;
+  box-shadow:none;
+  overflow:visible;
+}
+.reference-card img{
+  display:block;
+  width:100%;
+  height:auto;
+  max-height:none;
+  object-fit:contain;
+  border:1px solid var(--gold);
+  box-shadow:0 12px 32px rgba(8,35,82,.16);
+}
+body[data-theme="blue"] .reference-card{background:transparent;border:0;box-shadow:none}
+body[data-theme="blue"] .reference-card img{border-color:var(--gold-bright);box-shadow:0 12px 32px rgba(0,0,0,.3)}
+@media(max-width:600px){
+  .reference-card{width:100%;max-width:100%;margin:0 auto 14px;padding:0}
+  .reference-card img{width:100%;height:auto;max-height:none;object-fit:contain}
+}
