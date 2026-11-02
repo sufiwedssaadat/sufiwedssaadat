@@ -8,8 +8,8 @@ window.WEDDING = {
   year: "2026",
   time: "6:00 PM",
   venue: "Palmberry Resort",
-  address: "Chatauni, Motihari, Bihar, India",
-  mapUrl: "https://maps.app.goo.gl/G1bHzotxk5DffqYR9
+  address: "NH 28, Betiah road, near Chandi mandir, Motihari, Bihar, India",
+  mapUrl: "https://maps.app.goo.gl/G1bHzotxk5DffqYR9",
   tagline: "Two hearts. One promise. A lifetime of blessings.",
   welcome: "With the blessings of Allah and the love of our families, we invite you to join us as we begin a beautiful new chapter together.",
   quote: "May your love be steadfast, your home be peaceful, and your journey be guided by faith, mercy and kindness.",
