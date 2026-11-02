@@ -9,7 +9,7 @@ window.WEDDING = {
   time: "6:00 PM",
   venue: "Palmberry Resort Motihari, Bihar",
   address: "Motihari, Bihar, India",
-  mapUrl: "https://www.google.com/maps/place/Palm+Berry+Resort/@26.6626111,84.9246987,16.45z/data=!4m9!3m8!1s0x39933576d28ff51f:0xc374c3ad632be3a4!5m2!4m1!1i2!8m2!3d26.6626471!4d84.9286226!16s%2Fg%2F11vc_xdd4b?entry=ttu&g_ep=EgoyMDI2MTAyOC4wIKXMDSoASAFQAw%3D%3D",
+  mapUrl: "https://maps.app.goo.gl/G1bHzotxk5DffqYR9
   tagline: "Two hearts. One promise. A lifetime of blessings.",
   welcome: "With the blessings of Allah and the love of our families, we invite you to join us as we begin a beautiful new chapter together.",
   quote: "May your love be steadfast, your home be peaceful, and your journey be guided by faith, mercy and kindness.",
