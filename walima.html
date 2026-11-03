@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#082b67">
+<meta name="description" content="Walima invitation for Sufiya Anjum and Dr Shahadat Hussain.">
+<title>Royal Wedding | Walima</title>
+<link rel="stylesheet" href="assets/style.css">
+<script src="assets/data.js"></script><script defer src="assets/site.js"></script>
+</head>
+<body data-page="walima">
+<header class="site-header"><div class="nav-wrap">
+<a class="brand" href="index.html"><span class="brand-mark">✧</span><span><span class="brand-title">The Wedding</span><br><span class="brand-sub">Royal Blue Edition</span></span></a>
+<button class="menu-toggle" aria-expanded="false" aria-label="Toggle navigation">Menu ☰</button>
+<nav class="nav-links" aria-label="Main navigation">
+<a href="index.html">Home</a>
+<a href="invitation.html">Invitation</a>
+<a href="blessings.html">Blessings</a>
+<a href="programme.html">Programme</a>
+<a href="walima.html" class="active" aria-current="page">Walima</a>
+<a href="venue.html">Venue</a>
+<a href="couple.html">The Couple</a>
+<a href="family.html">Families</a>
+<a href="dua.html">Dua</a>
+<a href="thank-you.html">Thank You</a>
+</nav>
+<button type="button" class="theme-toggle" id="theme-toggle" aria-label="Switch theme">✦ Royal Blue Theme</button>
+</div></header>
+
+<main>
+<section class="hero walima-hero">
+<span class="corner tl">❧</span><span class="corner tr">❧</span><span class="corner bl">❧</span><span class="corner br">❧</span>
+<div class="hero-content">
+<div class="bismillah">بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ</div>
+<div class="eyebrow">With the blessings of Allah</div>
+<div class="ornament">✦ ❋ ✦</div>
+<div class="script walima-script">The Walima</div>
+<p class="lead">Together with our families, we request the pleasure of your gracious presence at the Walima reception celebrating the marriage of</p>
+<h1 class="script" data-bind="groom"></h1>
+<div class="ampersand">with</div>
+<h1 class="script" data-bind="bride"></h1>
+<div class="ornament">❧ ✦ ❧</div>
+<p class="details">Your presence and duas will make this joyous occasion truly special.</p>
+<div class="walima-details">
+<div><span class="detail-label">DATE</span><strong>[Walima day, date and month]</strong></div>
+<div><span class="detail-label">TIME</span><strong>[Walima start time]</strong></div>
+<div><span class="detail-label">VENUE</span><strong>[Walima venue name]</strong></div>
+<div><span class="detail-label">ADDRESS</span><strong>[Complete Walima venue address]</strong></div>
+</div>
+<div class="btn-row">
+<a class="btn primary" href="family.html">Family &amp; Contact Details</a>
+<a class="btn gold" href="venue.html">Wedding Venue</a>
+</div>
+</div>
+</section>
+<section class="page-shell center" style="margin-top:28px">
+<div class="page-inner">
+<div class="page-kicker">An evening of gratitude and togetherness</div>
+<h2>With Warm Regards</h2>
+<p class="body-copy">We would be honoured by your presence as we celebrate this blessed occasion with family and friends.</p>
+<div class="ornament">✦ ❋ ✦</div>
+<p class="quote-box">May Allah bless this gathering with joy, harmony and abundant barakah.</p>
+<p class="body-copy gold-text">We look forward to welcoming you.</p>
+<a class="btn primary" href="index.html">Return to Wedding Home</a>
+</div>
+</section>
+</main>
+<footer class="footer">
+<div class="script">With love and duas</div>
+<div><span data-bind="bride"></span> &amp; <span data-bind="groom"></span></div>
+<div class="small-note">Walima invitation · Please confirm the date, time and venue before publishing.</div>
+</footer>
+<style>
+.walima-script{font-size:clamp(54px,8vw,88px);color:var(--gold);line-height:1.1;margin:12px 0}
+.walima-details{max-width:650px;margin:25px auto 8px;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:13px}
+.walima-details>div{padding:16px 12px;border:1px solid var(--gold);background:#ffffffa8;display:flex;flex-direction:column;gap:7px}
+.detail-label{font:600 10px Montserrat,sans-serif;letter-spacing:.18em;color:#987016}
+.walima-details strong{font-size:19px;color:var(--blue);overflow-wrap:anywhere}
+body[data-theme="blue"] .walima-details>div{background:#ffffff0a;border-color:var(--gold-bright)}
+body[data-theme="blue"] .walima-details strong{color:#fffaf0}
+body[data-theme="blue"] .walima-script{color:var(--gold-bright)}
+@media(max-width:600px){.walima-details{grid-template-columns:1fr}.walima-details>div{padding:13px 10px}.walima-hero{min-height:unset}}
+</style>
+</body>
+</html>
