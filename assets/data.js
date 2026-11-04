@@ -12,7 +12,7 @@ window.WEDDING = {
   mapUrl: "https://maps.app.goo.gl/G1bHzotxk5DffqYR9",
   tagline: "Two hearts. One promise. A lifetime of blessings.",
   welcome: "With the blessings of Allah and the love of our families, we invite you to join us as we begin a beautiful new chapter together.",
-  quote: "May their love be steadfast,  <br>their home be peaceful & <br>their journey be guided by faith, mercy and kindness.",
+  quote: "May their love be steadfast,\ntheir home be peaceful &\ntheir journey be guided by faith, mercy and kindness.",
   events: [
     { name: "Guest Arrival", time: "5:30 PM", note: "A warm welcome for family and friends", icon: "✦" },
     { name: "Nikah Ceremony", time: "7:00 PM", note: "The blessed beginning of a new journey", icon: "☾" },
