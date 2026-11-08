@@ -20,7 +20,7 @@ window.WEDDING = {
     { name: "Rukhsati", time: "10:00 PM", note: "With prayers for a beautiful future", icon: "❧" }
   ],
   familyHeading: "Together with our families",
-  familyMessage: "Our families request the pleasure of your gracious presence and prayers as we celebrate this blessed occasion.",
+  familyMessage: "We request the pleasure of your gracious presence and prayers as we celebrate this blessed occasion.",
   specialNote: "Your presence is our honour and your prayers are our most precious gift.",
   thankYou: "Thank you for sharing in our happiness. May Allah bless you with peace, good health, and abundant goodness."
 };
