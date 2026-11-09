@@ -14,13 +14,13 @@ window.WEDDING = {
   welcome: "With the blessings of Allah and the love of our families, we invite you to join us as we begin a beautiful new chapter together.",
   quote: "May their love be steadfast,\ntheir home be peaceful &\ntheir journey be guided by faith, mercy and kindness.",
   events: [
-    { name: "Guest Arrival", time: "5:30 PM", note: "A warm welcome for family and friends", icon: "✦" },
-    { name: "Nikah Ceremony", time: "7:00 PM", note: "The blessed beginning of a new journey", icon: "☾" },
-    { name: "Dinner & Celebration", time: "7:30 PM", note: "An evening of joy and togetherness", icon: "❋" },
-    { name: "Rukhsati", time: "10:00 PM", note: "With prayers for a beautiful future", icon: "❧" }
+    { name: "Guest Arrival", time: "06:00 PM", note: "A warm welcome for family and friends", icon: "✦" },
+    { name: "Nikah Ceremony", time: "07:00 PM", note: "The blessed beginning of a new journey", icon: "☾" },
+    { name: "Dinner & Celebration", time: "07:30 PM", note: "An evening of joy and togetherness", icon: "❋" },
+    { name: "Rukhsati", time: "09:30 PM", note: "With prayers for a beautiful future", icon: "❧" }
   ],
   familyHeading: "Together with our families",
-  familyMessage: "We request the pleasure of your gracious presence and prayers as we celebrate this blessed occasion.",
+  familyMessage: "We request the pleasure of your gracious presence and prayers.",
   specialNote: "Your presence is our honour and your prayers are our most precious gift.",
   thankYou: "Thank you for sharing in our happiness. May Allah bless you with peace, good health, and abundant goodness."
 };
