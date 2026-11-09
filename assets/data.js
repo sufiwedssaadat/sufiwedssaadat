@@ -10,7 +10,7 @@ window.WEDDING = {
   venue: "Palmberry Resort",
   address: "NH 28, Betiah road, near Chandi mandir, Motihari, Bihar, India",
   mapUrl: "https://maps.app.goo.gl/G1bHzotxk5DffqYR9",
-  tagline: "Two hearts. One promise.<br>A lifetime of blessings.",
+  tagline: "Two hearts. One promise.\nA lifetime of blessings.",
   welcome: "With the blessings of Allah and the love of our families, we invite you to join us as we begin a beautiful new chapter together.",
   quote: "May their love be steadfast,\ntheir home be peaceful &\ntheir journey be guided by faith, mercy and kindness.",
   events: [
