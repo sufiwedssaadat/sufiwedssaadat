@@ -6,7 +6,7 @@ window.WEDDING = {
   dateNumber: "28",
   dateMonth: "NOVEMBER",
   year: "2026",
-  time: "6:00 PM",
+  time: "07:00 PM",
   venue: "Palmberry Resort",
   address: "NH 28, Betiah road, near Chandi mandir, Motihari, Bihar, India",
   mapUrl: "https://maps.app.goo.gl/G1bHzotxk5DffqYR9",
