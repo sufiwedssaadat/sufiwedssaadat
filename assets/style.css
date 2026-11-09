@@ -74,7 +74,7 @@ h3{font-size:25px;font-weight:600;color:var(--blue);margin:8px 0}
     white-space: pre-line;
 }
 @media(max-width:1000px){.nav-wrap{flex-wrap:wrap}.menu-toggle{display:block}.nav-links{display:none;width:100%;flex-direction:column;align-items:stretch}.nav-links.open{display:flex}.nav-links a{padding:12px 6px}.grid{grid-template-columns:1fr}.two-col{grid-template-columns:1fr}.hero{min-height:630px}}
-@media(max-width:520px){main{padding:18px 10px 42px}.nav-wrap{padding:11px 14px}..brand-sub{
+@media(max-width:520px){main{padding:18px 10px 42px}.nav-wrap{padding:11px 14px}.brand-sub{
     display:inline-block;
     font-size:9px;
     letter-spacing:.10em;
