@@ -15,9 +15,9 @@ window.WEDDING = {
   quote: "May their love be steadfast,\ntheir home be peaceful &\ntheir journey be guided by faith, mercy and kindness.",
   events: [
     { name: "Guest Arrival", time: "06:00 PM", note: "A warm welcome for family and friends", icon: "✦" },
-    { name: "Nikah Ceremony", time: "07:00 PM", note: "The blessed beginning of a new journey", icon: "☾" },
+    { name: "Nikaah Ceremony", time: "07:00 PM", note: "The blessed beginning of a new journey", icon: "☾" },
     { name: "Dinner & Celebration", time: "07:30 PM", note: "An evening of joy and togetherness", icon: "❋" },
-    { name: "Rukhsati", time: "09:30 PM", note: "With prayers for a beautiful future", icon: "❧" }
+    { name: "Rukhsati", time: "04:00 AM", note: "With prayers for a beautiful future", icon: "❧" }
   ],
   familyHeading: "Together with our families",
   familyMessage: "We request the pleasure of your gracious presence and prayers.",
