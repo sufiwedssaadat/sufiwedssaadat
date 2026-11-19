@@ -1,6 +1,6 @@
 /* Central wedding details: edit values here to update the website. */
 window.WEDDING = {
-  bride: "Jaan",
+  bride: "Sufiya Anjum",
   groom: "Dr. Shahadat Hussain",
   dateDay: "SATURDAY",
   dateNumber: "28",
